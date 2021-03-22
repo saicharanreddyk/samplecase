@@ -2,7 +2,7 @@
     "packageDirectories": [
         {
             "path": "force-app",
-            "default": true,
+            "default": false,
             "package": "YourPackageName",
             "versionName": "ver 0.1",
             "versionNumber": "0.1.0.NEXT"
@@ -13,6 +13,13 @@
             "versionName": "ver 0.1",
             "versionNumber": "0.1.0.NEXT",
             "default": false
+        },
+        {
+            "path": "force-app",
+            "package": "Jenkins",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "default": true
         }
     ],
     "namespace": "",
@@ -22,6 +29,7 @@
         "YourPackageName": "0Ho1v0000008ONFCA2",
         "YourPackageName@0.1.0-1": "04t1v0000025jjpAAA",
         "MyName": "0Ho1v0000008ONKCA2",
-        "MyName@0.1.0-1": "04t1v0000025jryAAA"
+        "MyName@0.1.0-1": "04t1v0000025jryAAA",
+        "Jenkins": "0Ho5g0000004CIACA2"
     }
 }
