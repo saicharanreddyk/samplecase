@@ -1,31 +1,22 @@
 {
-  "orgName": "Business Proposal Package",
-  "edition": "Enterprise",
-  "features": ["MultiCurrency", "AuthorApex", "StateAndCountryPicklist", "ContactsToMultipleAccounts"],
-"settings": {
-  "nameSettings": {
-    "enableNameSuffix": true
+  "orgName": "MyCompany",
+  "edition": "Developer",
+  "features": ["Communities", "ServiceCloud", "Chatbot"],
+  "settings": {
+  "communitiesSettings": {
+    "enableNetworksEnabled": true
   },
   "opportunitySettings": {
     "enableOpportunityTeam": true
-  },
-  "quoteSettings": {
-    "enableQuote": true
-  },
-  "lightningExperienceSettings": {
-    "enableS1DesktopEnabled": true
-  },
-  "chatterSettings": {
-    "enableChatter": true
-  },
-  "languageSettings": {
-    "enableTranslationWorkbench": true
-  },
-  "enhancedNotesSettings": {
-    "enableEnhancedNotes": true
-  },
-  "emailAdministrationSettings": {
-    "enableEnhancedEmailEnabled": true
   }
+  },
+  "objectSettings": {
+    "opportunity": {
+      "sharingModel": "private",
+      "defaultRecordType": "default"
+    },
+      "account": {
+      "defaultRecordType": "default"
+    }
 }
 }
