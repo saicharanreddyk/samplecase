@@ -127,7 +127,7 @@ node {
 
                 response = null
 
-                echo ${PACKAGE_VERSION}
+                echo PACKAGE_VERSION
             }
 
 
